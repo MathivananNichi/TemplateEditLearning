@@ -1,12 +1,36 @@
 {
-  "name": "reactnativebaseproject",
+  "name": "templateedit",
   "version": "1.0.0",
   "main": "index.ts",
   "dependencies": {
-    "expo": "~58.0.26",
-    "expo-status-bar": "~58.0.5",
+    "@expo/vector-icons": "^15.0.2",
+    "@hookform/resolvers": "^7.0.7",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "^7.5.2",
+    "@react-navigation/native-stack": "^7.21.1",
+    "@reduxjs/toolkit": "^2.15.0",
+    "@shopify/react-native-skia": "2.14.0",
+    "@tanstack/react-query": "^5.108.0",
+    "@tanstack/react-query-persist-client": "^5.108.0",
+    "axios": "^1.21.1",
+    "expo": "~58.0.20",
+    "expo-font": "~58.0.12",
+    "expo-image-picker": "~58.0.10",
+    "expo-status-bar": "~58.0.4",
+    "i18next": "^27.2.2",
     "react": "19.3.0",
-    "react-native": "0.88.1"
+    "react-hook-form": "^7.92.0",
+    "react-i18next": "^18.0.3",
+    "react-native": "0.88.0",
+    "react-native-element-dropdown": "^2.12.4",
+    "react-native-gesture-handler": "~3.3.0",
+    "react-native-reanimated": "4.7.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-screens": "~4.30.1",
+    "react-native-svg": "15.16.0",
+    "react-redux": "^9.3.1",
+    "zod": "^4.6.7",
+    "zustand": "^5.1.0"
   },
   "devDependencies": {
     "@types/react": "~19.3.0",
@@ -14,8 +38,8 @@
   },
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "private": true
